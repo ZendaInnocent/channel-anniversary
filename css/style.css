@@ -66,3 +66,10 @@ video {
   padding: 1rem 0;
   width: 100%;
 }
+
+.signature {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
