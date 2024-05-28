@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        Kumbukumbu ya Mwezi Mmoja Tangu Kuanzishwa kwa Chaneli
+        Kumbukumbu Tangu Kuanzishwa kwa Chaneli
     </title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
         </h1>
         <article>
             <p class="text" style="font-weight: bold;">
-                23 Aprili 2024
+                05 Mei 2024
             </p>
 
             <p class="text">
@@ -31,7 +31,7 @@
             <p class="text">
                 🚀 Leo ni siku
                 muhimu kwa
-                jumuiya yetu ya teknolojia tunapoadhimisha kumbukumbu ya mwezi mmoja tangu kuanzishwa kwa chaneli yetu.
+                jumuiya yetu ya teknolojia tunapoadhimisha kumbukumbu tangu kuanzishwa kwa chaneli yetu.
             </p>
             <p class="text">
                 🙏 Ninapenda kutoa shukrani zangu za dhati kwa kila mmoja wenu ambaye amekuwa sehemu ya safari hii.
@@ -40,7 +40,7 @@
                 wako, na shauku yako imekuwa nguvu inayosukuma ukuaji na mafanikio yetu.
             </p>
             <p class="text">
-                🎉 Mwezi uliopita umejaa kujifunza,
+                🎉 Kipindi kilichopita kimejaa kujifunza,
                 kushiriki, na kugundua maarifa ya kuvutia katika ulimwengu wa teknolojia, na nisingeweza kufanya hivyo
                 bila wewe!
             </p>
@@ -56,34 +56,46 @@
                 ugunduzi!
             </p>
             <p class="text">
-                Asante kwa mara nyingine tena kwa kuwa sehemu ya jumuiya yetu ya teknolojia na kwa kufanya mwezi
-                uliopita kuwa
-                mwezi
-                wa kukumbukwa.
+                Asante kwa mara nyingine kwa kuwa sehemu ya jumuiya yetu ya teknolojia na kwa kufanya kipindi
+                kilichopita tangu kuanzishwa kwa chaneli hii kuwa kipindi cha kukumbukwa.
             </p>
             <p class="text">
-                🚀 Kuna miezi mingi zaidi ya uvumbuzi, msukumo, na umaridadi wa teknolojia! Hebu tuendelee kuvuka mipaka
+                🚀 Kuna vipindi vingi zaidi vya uvumbuzi, msukumo, na umaridadi wa teknolojia! Hebu tuendelee kuvuka
+                mipaka
                 na
                 kufungua
                 uwezekano usio na kikomo ambao teknolojia inaweza kutoa.
             </p>
 
-            <div style="margin-bottom: 1rem;">
-                <p class="signature">
+            <div class="signature-container">
+                <p class="signature text">
                     Innocent
                 </p>
-                <span>Suave Tech, 2024</span>
+                <span class="text">Suave Tech, 2024</span>
             </div>
         </article>
         <div class="links">
             <a class="btn" href="index.html">
-                <img class="icon" src="images/previous.png" alt="Nyuma">
+                <img class="icon text" src="images/previous.png" alt="Nyuma">
             </a>
             <a class="btn" href="final.html">
-                <img class="icon" src="images/next.png" alt="Mbele">
+                <img class="icon text" src="images/next.png" alt="Mbele">
             </a>
         </div>
     </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script src="/js/jquery-typewriter.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('.text').typewrite({
+                'delay': 60,
+                'callback': () => runConffetti()
+            })
+        });
+
+    </script>
 </body>
 
 </html>

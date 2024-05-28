@@ -16,7 +16,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   max-height: 100vh;
   background-color: #fff8f8;
 }
@@ -76,4 +76,12 @@ video {
 
 .icon {
   padding-top: 8px;
+}
+
+.text {
+  display: none;
+}
+
+.signature-container {
+  margin-bottom: 1rem;
 }
